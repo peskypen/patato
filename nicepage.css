@@ -34833,7 +34833,18 @@ a.u-link.u-text-hover-grey-90:hover {
     min-width: 16px;
   }
 }
+@media (max-width: 991px) {
+  .u-footer .u-sheet-1 {
+    min-height: 237px;
+  }
 
+  .u-footer .u-social-icons-1 {
+    height: 44px;
+    width: 98px;
+    min-width: 42px;
+    margin-right: -25px;
+  }
+}
 @media (max-width: 767px) {
   .u-footer .u-sheet-1 {
     min-height: 200px;
@@ -34844,6 +34855,8 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-social-icons-1 {
+    width: 23px;
+    min-width: 16px;
     margin-right: auto;
   }
 }

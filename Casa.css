@@ -18,17 +18,10 @@
   padding: 14px 36px 15px 34px;
 }
 
-.u-section-1 .u-image-1 {
-  width: 178px;
-  height: 178px;
-  margin: -9px auto 0 -27px;
-}
-
 .u-section-1 .u-group-1 {
   width: 658px;
   min-height: 439px;
-  height: auto;
-  margin: 129px auto 0 0;
+  margin: 298px auto 0 0;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -53,10 +46,6 @@
 
   .u-section-1 .u-btn-1 {
     margin-right: 0;
-  }
-
-  .u-section-1 .u-group-1 {
-    height: auto;
   }
 
   .u-section-1 .u-container-layout-1 {
@@ -152,7 +141,6 @@
 .u-section-2 .u-group-1 {
   width: 677px;
   min-height: 614px;
-  height: auto;
   margin: -257px auto 0 calc(((100% - 1140px) / 2) + 16px);
 }
 
@@ -172,6 +160,7 @@
 .u-section-2 .u-text-1 {
   font-size: 2.25rem;
   background-image: none;
+  font-weight: normal;
   margin: -69px 0 0;
 }
 
@@ -191,7 +180,6 @@
   .u-section-2 .u-group-1 {
     width: 556px;
     margin-left: calc(((100% - 940px) / 2) + 16px);
-    height: auto;
   }
 
   .u-section-2 .u-container-layout-1 {
@@ -298,8 +286,9 @@
     margin-top: 43px;
   }
 } .u-section-3 {
-  background-image: url("images/parallel-universe-PNG-vector.png");
+  background-image: url("images/p21323688_i_h8_aa.jpg");
   min-height: 1083px;
+  background-position: 50% 50%;
 }
 
 .u-section-3 .u-image-1 {
@@ -327,7 +316,6 @@
 .u-section-3 .u-group-1 {
   width: 683px;
   min-height: 287px;
-  height: auto;
   margin: 359px calc(((100% - 1140px) / 2) + -22px) 59px auto;
 }
 
@@ -338,7 +326,6 @@
 }
 
 .u-section-3 .u-text-1 {
-  position: relative;
   margin: 20px 0 0;
 }
 
@@ -368,12 +355,15 @@
 
   .u-section-3 .u-group-1 {
     margin-right: calc(((100% - 940px) / 2) + -22px);
-    height: auto;
   }
 
   .u-section-3 .u-container-layout-1 {
     padding-left: 16px;
     padding-right: 16px;
+  }
+
+  .u-section-3 .u-text-1 {
+    position: relative;
   }
 }
 
@@ -427,7 +417,7 @@
 
 @media (max-width: 575px) {
    .u-section-3 {
-    min-height: 148px;
+    min-height: 1083px;
   }
 
   .u-section-3 .u-image-1 {
@@ -439,6 +429,18 @@
   .u-section-3 .u-image-2 {
     margin-top: 36px;
     margin-right: calc(((100% - 340px) / 2) + 78px);
+  }
+
+  .u-section-3 .u-image-3 {
+    width: 126px;
+    height: 229px;
+  }
+
+  .u-section-3 .u-group-1 {
+    margin-top: 595px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-3 .u-container-layout-1 {
@@ -837,16 +839,41 @@
     margin-bottom: 22px;
   }
 } .u-section-5 {
-  min-height: 691px;
   background-image: url("images/SpaceAge2.png");
+  background-position: 50% 50%;
+  min-height: 691px;
 }
 
 .u-section-5 .u-image-1 {
-  width: 385px;
-  height: 419px;
+  width: 255px;
+  height: 303px;
   object-position: 100% 50%;
   background-position: 100% 50%;
   margin: -84px auto 60px 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-5 .u-image-1 {
+    width: 221px;
+    height: 263px;
+    margin-top: -90px;
+    margin-left: calc(((100% - 940px) / 2) + -84px);
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-5 .u-image-1 {
+    width: 193px;
+    height: 207px;
+    margin-top: 66px;
+    margin-left: calc(((100% - 720px) / 2) + -108px);
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-5 .u-image-1 {
+    margin-left: calc(((100% - 540px) / 2) + -108px);
+  }
 }
 
 @media (max-width: 575px) {
@@ -857,7 +884,9 @@
   .u-section-5 .u-image-1 {
     object-position: 98.6% 50%;
     background-position: 98.6% 50%;
-    width: 340px;
-    height: 370px;
+    width: 173px;
+    height: 173px;
+    margin-top: 144px;
+    margin-left: calc(((100% - 340px) / 2) + -122px);
   }
 }
