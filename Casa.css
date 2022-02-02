@@ -889,4 +889,6 @@
     margin-top: 144px;
     margin-left: calc(((100% - 340px) / 2) + -122px);
   }
+}.min-width {
+100%;
 }
